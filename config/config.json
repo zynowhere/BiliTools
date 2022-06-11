@@ -193,6 +193,9 @@
             "telegram_bot_token": "",
             "telegram_bot_chatid": "",
             "SKEY": "SCT9483T3d5NZps5AVvTYIn1ipyouWNI" */
+            "QYWX_KEY": "",
+            "Wecom": "", // Wecom酱api地址
+            "Wecomkey"": "", // Wecom酱的SendKey
         },
         "hooks": [ // 在这里以数组的形式定义所有消息推送回调接口
         	{
@@ -217,6 +220,24 @@
                     "desp": "{msg_simple}" 
                 }
             }, //若要实现其他消息推送接口，需要自己查阅相关文档构建method，url和params三个参数，下面是邮箱推送和telegram_bot推送的例子，其他平台自行探索
+            {
+                "enable": false,
+                "name": "Wecom消息推送",
+                //"msg_separ": "\n",
+                "method": 3,
+                "url": "{Wecom}",
+                "params": {  
+                "sendkey": "{Wecomkey}",
+                "msgtype": "text",
+                "msg": "{title}\n{msg_raw}" 
+
+
+                    //"text": "{title}",
+                    //"desp": "{msg_raw}" 
+                    
+                    //}
+                    
+        },
             {
                 "enable": false,
                 "name": "邮箱消息推送",
