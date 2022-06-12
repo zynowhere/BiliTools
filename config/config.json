@@ -192,10 +192,10 @@
         /*  "email": "",
             "telegram_bot_token": "",
             "telegram_bot_chatid": "",
-            "SKEY": "SCT9483T3d5NZps5AVvTYIn1ipyouWNI" */
+            "SKEY": "SCT9483T3d5NZps5AVvTYIn1ipyouWNI" 
             "QYWX_KEY": "",
             "Wecom": "", // Wecom酱api地址
-            "Wecomkey"": "", // Wecom酱的SendKey
+            "Wecomkey"": "", // Wecom酱的SendKey*/
         },
         "hooks": [ // 在这里以数组的形式定义所有消息推送回调接口
         	{
