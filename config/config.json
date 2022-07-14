@@ -189,13 +189,13 @@
 
             "title": "B站助手脚本消息推送", // 此为自定义变量，用于下面hooks消息推送接口引用
             "SendKey": "xxxxx",
-        /*  "email": "",
+            "email": "",
             "telegram_bot_token": "",
             "telegram_bot_chatid": "",
             "SKEY": "SCT9483T3d5NZps5AVvTYIn1ipyouWNI" 
             "QYWX_KEY": "",
             "Wecom": "", // Wecom酱api地址
-            "Wecomkey"": "", // Wecom酱的SendKey*/
+            "Wecomkey"": "", // Wecom酱的SendKey
         },
         "hooks": [ // 在这里以数组的形式定义所有消息推送回调接口
         	{
