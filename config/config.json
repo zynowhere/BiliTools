@@ -208,7 +208,7 @@
                     "text": "{title}",
                     "desp": "{msg_simple}" 
                 }
-            }/*,
+            },
             {
                 "enable": true,
                 "name": "server酱消息推送",

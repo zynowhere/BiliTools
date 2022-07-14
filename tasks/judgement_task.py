@@ -12,7 +12,7 @@ voteInfo = {
     12: '普通',
     13: '差',
     14: '无法判断'
-}
+}// 已失效
 
 
 async def judgement_task(biliapi: asyncbili,
